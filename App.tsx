@@ -25,7 +25,6 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-
 var fp = require('lodash/fp');
 var _ = require('lodash/core');
 
@@ -34,7 +33,7 @@ type SectionProps = PropsWithChildren<{
 }>;
 
 function Section({children, title}: SectionProps): React.JSX.Element {
-  console.log('### asPromise', fp, _)
+  console.log('### asPromise', fp, _);
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
