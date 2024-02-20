@@ -16,7 +16,7 @@ react-native webpack-start
 ## Bundle size:
 Checked size with command: 
 ```bash
-npx react-native-bundle-visualizer
+npx react-native-bundle-visualizer --bundle-output ./build/generated/ios/index.bundle
 ```
 Bundle is 2.6 MB.
 
