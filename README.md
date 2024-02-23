@@ -6,4 +6,4 @@ Checked size with command:
 npx react-native-bundle-visualizer
 ```
 
-Bundle is --.-- MB.
+Bundle is 2.6 MB.
